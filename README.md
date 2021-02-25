@@ -5,6 +5,12 @@ C#, using composition to mimic multiple inheritance, reuses dataFilter code
 dataFilterBeacon ‘types’ and thus reflect the ‘cross-product’ of both inheritance hierarchies. 
 Composite type functionality must be represented, e.g. dataFilterBeacon, dataModBeacon, dataCutBeacon, dataFilterStrobeBeacon, dataFilterQuirkyBeacon, …, etc.
 
+
+
+
+
+
+
 BEACON:
 where each beacon object: 
 May be on or off May be charged or not Emits a signal, 
@@ -19,6 +25,12 @@ STROBEBEACON:
 // strobeBeacon is-a beacon that alternates its signal response, 
 // oscillating between negative and positive (or high and low). 
 // strobeBeacons cannot be recharged. 
+
+
+
+
+
+
 
 
 DATAFILTER:
@@ -40,6 +52,11 @@ DATAMOD:
 // dataMod is intially set to 'Large' mode
 // if the given number is not a prime number, it will be updated to the nearest greatest prime number 
 // if given a negative number it will be updated to a default value
+
+
+
+
+
 
 
 
